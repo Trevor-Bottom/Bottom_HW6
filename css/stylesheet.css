@@ -1,5 +1,5 @@
 
-/* Nav Bar Formatting */
+/*nav configuration*/
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -7,7 +7,7 @@ nav ul {
     overflow: hidden;
     background-color: #333;
 }
-nav ul li {
+nav ul li{
     float: left;
 }
 nav li a{
@@ -61,7 +61,7 @@ nav li a:hover{
 /* Using Box model with sections */
 section{
     border-bottom: #000 3px solid;
-    margin: 20;
+    margin: 20px;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -104,7 +104,7 @@ body{
 }
 
 /* Formatting the table */
-table, th, td {
+table, th, td{
     border: 1px solid;
     margin-left: auto;
     margin-right: auto;
@@ -112,11 +112,11 @@ table, th, td {
     font-weight: 900;
 }
 
-table {
+table{
     width: 50%;
 }
 
-th {
+th{
     background-color: #333;
     color: gold;
     text-align: center;
